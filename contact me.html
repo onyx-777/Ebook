@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="shortcut icon" href="Images/cover.jpg">
+</head>
+<body>
+    <div>
+    <details>
+        <summary><h2>My Contact details</h2></summary>
+    <fieldset>
+    <legend><h1>My contact details</h1></legend>
+    My Name: Knoxxer
+    <br>
+    Phone no. : 45624652562
+    <br>
+    My email:itsmyemail@gmail.com <br>
+    </fieldset>
+</details>
+</div>
+<br>
+<br>
+<div>
+<details>
+    <summary><h2>Details for Appointment</h2></summary>
+    <h1>Form</h1>
+    <form action="Storage.txt" method="get">
+        <div>
+            <fieldset>
+                <legend>Name</legend>
+            <label for="Name">Enter Your Name</label>
+            <input type="text">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+        <fieldset>
+            <legend>Your Gender</legend>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender">
+        </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Your E-mail</legend>
+            <label for="Email">Email</label>
+            <input type="email" id="Email" required>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <label for="request" aria-placeholder="Your Request" autocapitalize="uppercase">Your Request</label>
+            <textarea name="request" id="request" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <select name="Card" id="Card">
+                <option value="">--Select a card type--</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Visa">Visa</option>
+            </select>
+            <br>
+            <br>
+            <input type="Submit" value="Pay now">
+    </form>
+</details>
+</div>
+</body>
+</html>
